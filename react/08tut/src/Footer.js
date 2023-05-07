@@ -1,5 +1,7 @@
 import React from "react";
 
+// Props Drilling
+
 const Footer = ({ length }) => {
   return (
     <footer>
