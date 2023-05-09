@@ -11,6 +11,7 @@ function App() {
       try {
         const response = await fetch(`${API_URL}${reqType}`);
         const data = await response.json();
+        console.log(data);
         setItems(data);
       } catch (err) {
         console.log(err);
